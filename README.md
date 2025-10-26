@@ -1,4 +1,4 @@
-# AgentExtractorV1
+# LLM-DATA-Generator
 
 A powerful document data extraction application that transforms documents into synthetic LLM training data for fine-tuning. Combines intelligent document processing with AI-powered question generation to create high-quality datasets for machine learning models.
 
@@ -8,7 +8,7 @@ A powerful document data extraction application that transforms documents into s
 
 ## Overview
 
-AgentExtractorV1 is a modern web application designed to convert documents into synthetic training data for LLM fine-tuning. It extracts hierarchical content from documents and generates AI-powered question-answer pairs, creating ready-to-use datasets for training and fine-tuning language models. Built with a React frontend and Flask backend, it provides a seamless experience for document processing and synthetic data generation.
+LLM-DATA-Generator is a modern web application designed to convert documents into synthetic training data for LLM fine-tuning. It extracts hierarchical content from documents and generates AI-powered question-answer pairs, creating ready-to-use datasets for training and fine-tuning language models. Built with a React frontend and Flask backend, it provides a seamless experience for document processing and synthetic data generation.
 
 ---
 
@@ -56,7 +56,7 @@ AgentExtractorV1 is a modern web application designed to convert documents into 
 ### Step 1: Clone the Repository
 ```bash
 git clone <repository-url>
-cd AgentExtractorV1
+cd LLM-DATA-Generator
 ```
 
 ### Step 2: Backend Setup
@@ -178,7 +178,7 @@ npm run dev
 
 ## AI Provider Support
 
-AgentExtractorV1 supports multiple AI providers for maximum flexibility:
+LLM-DATA-Generator supports multiple AI providers for maximum flexibility:
 
 ### Cloud-Based APIs
 - **OpenAI**: GPT-4, GPT-3.5-Turbo (requires API key)
@@ -190,7 +190,7 @@ AgentExtractorV1 supports multiple AI providers for maximum flexibility:
 
 ### API Key Management
 
-AgentExtractorV1 uses a secure, client-side approach to API key management:
+LLM-DATA-Generator uses a secure, client-side approach to API key management:
 
 - **Browser Storage Only**: Keys stored in localStorage, never on the server
 - **No Persistence**: Keys don't persist after page refresh (intentional security feature)
