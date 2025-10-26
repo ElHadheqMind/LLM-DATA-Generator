@@ -1,0 +1,42 @@
+# Core Flask dependencies
+Flask==3.0.0
+Flask-CORS==4.0.0
+Werkzeug>=3.0.0
+
+# Document processing dependencies
+pandas>=1.5.0
+PyPDF2>=3.0.0
+PyMuPDF>=1.23.0
+pdfplumber>=0.11.0  # Advanced PDF extraction with layout analysis
+openpyxl>=3.1.0
+
+# Microsoft Office format support
+python-docx>=0.8.11  # Word documents (.docx)
+python-pptx>=0.6.21  # PowerPoint presentations (.pptx)
+
+# Additional document format support
+striprtf>=0.0.26  # RTF files
+odfpy>=1.4.1  # OpenDocument formats (.odt)
+
+# Legacy Office format support (optional)
+# textract>=1.6.5  # For .doc and .ppt files (requires system dependencies)
+
+# Environment and configuration
+python-dotenv>=1.0.0
+cryptography>=41.0.0  # For secure credential encryption
+
+# Azure OpenAI dependencies (Essential)
+openai>=1.12.0
+azure-identity>=1.15.0
+httpx==0.27.0  # Pinned to 0.27.0 for OpenAI compatibility (0.28+ breaks AsyncClient)
+
+# Additional AI Service Providers
+google-generativeai>=0.8.0  # Google Gemini API (updated for httpx compatibility)
+anthropic>=0.8.0  # For potential Claude integration
+
+# HTTP requests (already included with openai, but explicit for clarity)
+requests>=2.31.0
+
+# Additional utilities for AI services
+aiohttp>=3.8.0  # For async HTTP requests
+tenacity>=8.2.0  # For retry mechanisms
